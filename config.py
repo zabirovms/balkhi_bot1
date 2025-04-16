@@ -4,13 +4,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram Bot Token
-BOT_TOKEN = os.getenv("7841345426:AAHXmUG_PwDhPOP1iqXDN2lqNBvlysLINsk")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # PostgreSQL Database Configuration
 DB_CONFIG = {
-    "dbname": os.getenv("potgres"),
-    "user": os.getenv("zabirovms"),
-    "password": os.getenv("anas171801"),
-    "host": os.getenv("localhost"),
-    "port": os.getenv("5432")
+    "dbname": os.getenv("DB_NAME"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD"),
+    "host": os.getenv("DB_HOST"),
+    "port": os.getenv("DB_PORT")
 }
